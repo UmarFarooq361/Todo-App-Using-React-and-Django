@@ -1,0 +1,36 @@
+venv
+# Python specific files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Django specific files
+db.sqlite3
+db.sqlite3-journal
+/media/
+staticfiles/
+static/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+
+# Byte-compiled files
+*.log
+
+# Ignore migrations
+**/migrations/*
+
+# Ignore files related to local development
+.idea/
+.DS_Store
+*.bak
+*.swp
